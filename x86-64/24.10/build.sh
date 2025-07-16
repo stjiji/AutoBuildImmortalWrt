@@ -55,7 +55,7 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
-PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 
 # ============= imm仓库外的第三方插件==============
 # ============= 若启用 则打开注释 ================
@@ -64,11 +64,11 @@ PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # 首页和网络向导
 #PACKAGES="$PACKAGES luci-i18n-quickstart-zh-cn"
 # 去广告adghome
-#PACKAGES="$PACKAGES luci-app-adguardhome"
+ PACKAGES="$PACKAGES luci-app-adguardhome"
 # 代理相关
 #PACKAGES="$PACKAGES luci-app-ssr-plus"
 #PACKAGES="$PACKAGES luci-app-passwall2"
-#PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
+ PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
 # VPN
 #PACKAGES="$PACKAGES luci-app-tailscale"
 #PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
@@ -76,10 +76,10 @@ PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 #PACKAGES="$PACKAGES luci-app-partexp"
 #PACKAGES="$PACKAGES luci-i18n-partexp-zh-cn"
 # 酷猫主题 by sirpdboy 
-#PACKAGES="$PACKAGES luci-theme-kucat"
+ PACKAGES="$PACKAGES luci-theme-kucat"
 # 网络测速 by sirpdboy 
-#PACKAGES="$PACKAGES luci-app-netspeedtest"
-#PACKAGES="$PACKAGES luci-i18n-netspeedtest-zh-cn"
+ PACKAGES="$PACKAGES luci-app-netspeedtest"
+ PACKAGES="$PACKAGES luci-i18n-netspeedtest-zh-cn"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
